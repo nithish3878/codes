@@ -1,5 +1,6 @@
 #Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.from collections import Counter
 
+from collections import Counter
 nums=list(map(int,input().split()))
 dict=Counter(nums)
 for i in nums:
